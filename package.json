@@ -1,0 +1,30 @@
+{
+  "name": "demoapp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "develop": "node ./server/index.js",
+    "build": "./scripts/build.js",
+    "watch": "./scripts/watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "oauth4webapi": "^2.2.3",
+    "openid-client": "^5.4.2",
+    "preact": "^10.13.2",
+    "wait-on": "^7.0.1"
+  },
+  "devDependencies": {
+    "ansi-html": "^0.0.9",
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.17.17",
+    "glob": "^10.2.1",
+    "servatron": "^2.4.3"
+  }
+}
